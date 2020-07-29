@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*----------------Typography----------------*/
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle{
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+/*----------------Layout----------------*/
+
+header {
+    background-color: #f8f8f8;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    border: solid 1px magenta;
+}
+
+.intro {
+    width: 900px;
+    margin: 0 auto;
+}
+
+img {
+    width: 900px;
+    margin: 0 auto;
+}
