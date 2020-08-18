@@ -34,7 +34,9 @@ body {
 /* ==========================
 	Write your solution here!
    ========================== */
-
+body {
+	text-align: center;
+}
 .posts {
 	display: flex;
 	flex-flow: column wrap;
@@ -47,4 +49,32 @@ body {
 	margin: 1em;
 	border-radius: 2em;
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+img {
+	width: 70%;
+	object-fit: cover;
+	order: 1;
+}
+
+.post * {
+	margin: 1em;
+}
+
+@media (min-width: 600px) {
+	.posts {
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	
+	.post {
+		width: 40%;
+	}
+	
+	img {
+		order: 0;
+	}
 }
