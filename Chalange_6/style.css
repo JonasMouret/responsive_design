@@ -1,0 +1,49 @@
+/* DON'T TOUCH THIS! */
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://tellusdmsmedia.newmindmedia.com/wsimgs/The-Club_2_933698845.jpg[ProductImage]);
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+	color: white;
+	text-decoration: none;
+	background: #22499c;
+	font-weight: 800;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 10px;
+}
+/* DON'T TOUCH THIS! */
+
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 0.5em;
+    max-width: 80%;
+}
+
+.text {
+    font-size: 1.5rem;
+    margin: 1em;
+    max-width: 80%;
+}
+
+.btn {
+    font-size: 1rem;
+    margin: 1em;
+    padding: 0.5em;
+}
